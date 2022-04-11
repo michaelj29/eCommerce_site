@@ -55,6 +55,7 @@ body {
     background-color: #bf7631;
     color: #ffffff;
     padding: 4px 12px;
+    margin: 0 0 0 48%;
   }
 
   .message-box {
@@ -75,10 +76,33 @@ body {
     border-right: none;
     border-left: none;
     border-bottom-color: #bf7631;
-    margin-bottom: 10px;
+    margin-bottom: 5px;
+
   }
 
   .image-size {
       width: 98px;
       height: 98px;
+  }
+
+  .flex-container {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    padding-left: 0;
+    justify-content: center;
+  }
+
+  .card-item {
+    width: 398px;
+    margin: 30px;
+  }
+
+  .card-body {
+    color: black;
+    padding: 4px;
+  }
+
+  .card-footer {
+  
   }
