@@ -8,8 +8,8 @@
     <title>Document</title>
 </head>
 <body>
-    <header>
-        <nav class="navbar">
+    <header class="navbar">
+        <nav class ="flex-nav">
             <ul id="left-nav" class="nav-items">
                 <li class="home"><a href="#home">HOME</a></li>
                 <li class="about"><a href="#about">ABOUT</a></li>
@@ -26,10 +26,12 @@
                 <form class="form">
                     <input type="search" class="search-field"/>
                     <button class="search-button">
-                        <img src="./images/3980px-Google_Magnifying_Glass.svg.png" alt="search button">
+                        <img src="./images/1200px-Google_Magnifying_Glass.svg.png" alt="search button">
                     </button>
                 </form>
-                <li id="cart">CART (0)</li>
+                <a href="#home">
+                    <li id="cart">CART (0)</li>
+                </a>
             </ul>
         </nav>
     </header>
@@ -57,8 +59,10 @@
                 <div  class="card-item">
                     <a class= "product-items" href="#products">
                         <div class="card-header"><img src="./images/tom-crew-7HuTGlUfQSo-unsplash.jpg" alt="MUNDO BOWLS" width="398" height="398"></div>
-                        <p>MUNDO BOWLS</p>
-                        <p>$48.00</p>
+                        <div>
+                            <p class = "title">MUNDO BOWLS</p>
+                            <p class = "price">$48.00</p>
+                        </div>
                         <div class="card-body">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Error dignissimos porro culpa quod dolorem eos. Earum, delectus eos quidem nam iure dignissimos provident commodi cupiditate repellat dolorum aperiam porro deleniti!
                         </div>
                         <div class="card-footer">
@@ -196,8 +200,9 @@
                 </form>
             
             </div>
-            <button class="send-button">SEND</button>
-
+            <a href="#contact">
+                <button class="send-button" >SEND</button>
+            </a>
         </section>
 
 

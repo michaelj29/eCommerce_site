@@ -103,6 +103,35 @@ body {
     padding: 4px;
   }
 
-  .card-footer {
-  
+  .price {
+    background-color: royalblue;
   }
+
+  .title {
+    list-style: none;
+    background-color: green;
+    width: 50%;
+    display: inline-block;
+    }
+
+    p .title {
+    background-color: fuchsia;
+  }
+
+  .flex-nav {
+    display: flex;
+    flex-wrap: wrap;
+    
+  }
+
+ .nav-items {
+   list-style: none;
+   display: inline;
+
+ }
+
+
+ .navbar {
+  display: inline-flexbox;
+  background-color: red;
+ }
