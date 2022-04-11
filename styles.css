@@ -3,8 +3,10 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box; 
+    }
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif
 }
-
 /* THIS IS THE SEARCH BUTTON */
 .form {
     display: flex;
@@ -34,4 +36,22 @@
 
   .footer {
       background-color: #BF7631;
+  }
+
+  .send-button {
+    background-color: #bf7631;
+    color: #ffffff;
+    padding: 4px 12px;
+  }
+
+  .message-box {
+    height: 140px;
+  }
+
+  .hr-large {
+    border-bottom: 3px solid #000000;
+    padding-bottom: 30px;
+    margin-right: 50%;
+    margin-bottom: 10px;
+
   }
