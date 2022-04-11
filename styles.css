@@ -66,6 +66,7 @@ body {
     padding-bottom: 30px;
     margin-right: 50%;
     margin-bottom: 10px;
+    margin-top: 40px;
   }
 
   .hr-small {
@@ -132,8 +133,14 @@ body {
   width: 100%;
  }
 
- .left-nav li {
-    display: inline-block;
-    font-size: 20px;
-    padding: 20px;
- }
+#left-nav{
+    justify-content: space-around;
+}
+
+#center-nav {
+    padding-left: 200px;
+}
+
+#cart {
+    color: #000000;
+}
