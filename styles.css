@@ -13,10 +13,9 @@ body {
     flex-direction: row;
   }
   .search-field {
-    width: 100%;
+    width: 80px;
     padding: 10px 35px 10px 15px;
     border: 1px;
-    border-radius: 100px;
     outline: none;
   }
   
@@ -104,19 +103,14 @@ body {
   }
 
   .price {
-    background-color: royalblue;
+  background-color: #ffffff;
   }
 
   .title {
     list-style: none;
-    background-color: green;
     width: 50%;
     display: inline-block;
     }
-
-    p .title {
-    background-color: fuchsia;
-  }
 
   .flex-nav {
     display: flex;
@@ -126,12 +120,20 @@ body {
 
  .nav-items {
    list-style: none;
-   display: inline;
-
+   background-color: #ffffff;
+   width: 33.33%;
+   display: inline-flex;
  }
 
 
  .navbar {
   display: inline-flexbox;
-  background-color: red;
+  position: fixed;
+  width: 100%;
+ }
+
+ .left-nav li {
+    display: inline-block;
+    font-size: 20px;
+    padding: 20px;
  }
