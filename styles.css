@@ -38,7 +38,20 @@ body {
       background-color: #BF7631;
   }
 
+  a {
+      text-decoration: none;
+      text-decoration-color: black;
+  }
+
   .send-button {
+    border: none;
+    background-color: #bf7631;
+    color: #ffffff;
+    padding: 4px 12px;
+  }
+
+  .add-to-cart {
+    border: none;
     background-color: #bf7631;
     color: #ffffff;
     padding: 4px 12px;
@@ -53,5 +66,19 @@ body {
     padding-bottom: 30px;
     margin-right: 50%;
     margin-bottom: 10px;
+  }
 
+  .hr-small {
+    color: #bf7631;
+    background-color: #ffffff;
+    border-top: none;
+    border-right: none;
+    border-left: none;
+    border-bottom-color: #bf7631;
+    margin-bottom: 10px;
+  }
+
+  .image-size {
+      width: 98px;
+      height: 98px;
   }
