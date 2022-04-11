@@ -31,3 +31,7 @@
     object-fit: cover;
   }
   /* ABOVE IS THE SEARCH BUTTON */
+
+  .footer {
+      background-color: #BF7631;
+  }
